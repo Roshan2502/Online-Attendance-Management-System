@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".admin_activitys.AddTeacherActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/userphoto"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/imput_filed"
+        android:id="@+id/add_tech_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Teacher Name"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/imput_filed"
+        android:id="@+id/add_tech_email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address" />
+
+
+    <Spinner
+        android:background="@drawable/imput_filed"
+        android:backgroundTintMode="multiply"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/spinnergrade"
+        android:layout_width="350dp"
+        android:layout_height="50dp" />
+    <Spinner
+        android:background="@drawable/imput_filed"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/spinnersub"
+        android:layout_width="350dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/add_tech_pwd"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@drawable/imput_filed"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:id="@+id/teach_add_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        />
+
+</LinearLayout>

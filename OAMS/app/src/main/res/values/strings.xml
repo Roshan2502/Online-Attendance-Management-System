@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OAMS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="types">
+        <item>Mobile</item>
+        <item>Office</item>
+        <item>Home</item>
+    </string-array>
+    <string-array name="ANNEXURE">
+        <item>Select ANNEXURE</item>
+        <item>ANNEXURE-1</item>
+        <item>ANNEXURE-2</item>
+        <item>ANNEXURE-3</item>
+        <item></item>
+    </string-array>
+</resources>

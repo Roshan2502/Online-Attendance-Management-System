@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".admin_activitys.StudentAddActivity">
+
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add student" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/imput_filed"
+        android:id="@+id/add_std_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Student name"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/imput_filed"
+        android:id="@+id/add_std_rollno"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Register no" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dateshow2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/imput_filed"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:hint="Select date"
+        android:textSize="15dp" />
+    <Spinner
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/imput_filed" />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/imput_filed"
+        android:id="@+id/add_std_phone"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Phone no" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:id="@+id/std_add_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Add Student"
+         />
+</LinearLayout>

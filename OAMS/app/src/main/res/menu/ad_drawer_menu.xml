@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/ad_nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="HOME"
+        />
+        <item android:id="@+id/ad_nav_section"
+        android:icon="@drawable/ic_section_black_24dp"
+        android:title="SECTION"
+        />
+        <item android:id="@+id/ad_nav_teacher"
+        android:icon="@drawable/ic_teachers_black_24dp"
+        android:title="TEACHERS"
+        />
+        <item android:id="@+id/ad_nav_student"
+        android:icon="@drawable/ic_students_24dp"
+        android:title="STUDENTS"
+        />
+        <item android:id="@+id/ad_nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="LOGOUT"
+            />
+    </group>
+</menu>

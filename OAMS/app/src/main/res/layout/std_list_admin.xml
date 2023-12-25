@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/std_list"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginBottom="10sp"
+    android:background="@drawable/card_bg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+        <TextView
+            android:textColor="@color/titel_text_color"
+            android:fontFamily="@font/regular"
+            android:textStyle="bold"
+            android:id="@+id/ad_std_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="std name"/>
+
+        <TextView
+            android:textColor="@color/content_text_color"
+            android:id="@+id/ad_std_roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="std no"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+
+        >
+        <TextView
+            android:textColor="@color/content_text_color"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/ad_std_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="std grade"/>
+
+        <ImageButton
+            android:id="@+id/std_del_btn"
+            android:layout_marginRight="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/card_bg"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

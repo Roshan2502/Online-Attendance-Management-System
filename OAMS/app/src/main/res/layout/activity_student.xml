@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.StudentActivity" android:background="@color/light_gray">
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:id="@+id/arrow"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:text="Student"
+        android:textColor="@color/pink"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_below="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/light"
+        android:text="Student Attendence Search Area"
+        android:textColor="@color/pink" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:ems="10"
+                android:id="@+id/STselectfdate"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/imput_filed"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:gravity="center_vertical"
+                android:hint="Select from date"
+                android:paddingRight="30dp"
+
+                />
+
+            <TextView
+                android:ems="10"
+                android:id="@+id/STselectto"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/imput_filed"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:gravity="center_vertical"
+                android:hint="Select to date"
+                android:paddingRight="30dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Streg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/imput_filed"
+            android:ems="10"
+            android:hint="Register No" />
+
+        <Button
+            android:id="@+id/Stbtn"
+            android:layout_width="162dp"
+            android:layout_height="53dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/light"
+            android:gravity="center"
+            android:text="Seacrh"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</RelativeLayout>

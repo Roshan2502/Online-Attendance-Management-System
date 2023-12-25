@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/pink"
+            android:gravity="center"
+            android:fontFamily="@font/regular"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Report" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/placeholder_bg"
+        android:layout_height="1dp"/>
+    <Spinner
+
+        android:paddingLeft="10dp"
+        android:id="@+id/ANNEXURE_SPINNER"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/placeholder_bg"
+        android:layout_height="1dp"/>
+    <Spinner
+        android:paddingLeft="5dp"
+        android:id="@+id/spinnergrade_admin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/placeholder_bg"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="16dp"
+        android:textColorHint="#D1000000"
+        android:id="@+id/ad_selectfdate"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:hint="Select from date"
+
+
+                />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/placeholder_bg"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="16dp"
+        android:textColorHint="#D1000000"
+        android:id="@+id/ad_selectto"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select to date"
+
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/placeholder_bg"
+        android:layout_height="1dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/admin_repot_btn"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="Submit" />
+</LinearLayout>
